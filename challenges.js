@@ -59,3 +59,24 @@ console.log(likes(['Joe', 'Ellie', 'Sam', 'Max']))
 console.log(likes(['Joe', 'Ellie', 'Sam']))
 console.log(likes(['Max', 'Sam']))
 console.log(likes(['Max']))
+
+
+// Challenge Problem 3: Jaden Casing Strings
+
+function JadenCase (string) {
+  let array = string.split(' ')
+  let upperCasedArray = []
+
+  array.forEach(element => {
+    // console.log('this is element', element)
+    // console.log('this is element[0].toUpperCase() + element.slice(1)', element[0].toUpperCase() + element.slice(1))
+    upperCasedArray.push(element[0].toUpperCase() + element.slice(1))
+    // console.log('this is upperCasedArray', upperCasedArray)
+  })
+  // console.log('this is upperCasedArray', upperCasedArray)
+  return upperCasedArray.join(' ')
+}
+
+console.log(JadenCase('this is weird'))
+console.log(JadenCase('i like pizza'))
+console.log(JadenCase('i am practicing javascript coding challenges'))
