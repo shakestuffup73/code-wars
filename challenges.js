@@ -80,3 +80,25 @@ function JadenCase (string) {
 console.log(JadenCase('this is weird'))
 console.log(JadenCase('i like pizza'))
 console.log(JadenCase('i am practicing javascript coding challenges'))
+
+// Challenge Problem 4: Return the number (count) of vowels in the given string.
+// We will consider a, e, i, o, u as vowels for this Kata (but not y).
+// The input string will only consist of lower case letters and/or spaces.
+
+function getCount(string) {
+  let vowels = ['a','e','i','o','u']
+  let count = 0;
+
+  for (let i = 0; i < vowels.length; i++) {
+    for (let j = 0; j < string.length; j++) {
+      if (vowels[i] === string[j])
+      count++
+    }
+  }
+  return count;
+}
+
+console.log(getCount('apple'))
+console.log(getCount('banana'))
+console.log(getCount('intentional'))
+
