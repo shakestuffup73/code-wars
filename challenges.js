@@ -106,9 +106,32 @@ console.log(getCount('intentional'))
 
 function sortArray(array) {
   let odds = array.filter(num => num % 2 !==0).sort((a, b) => a - b)
-  console.log('this is odds', odds)
+  // console.log('this is odds', odds)
 
   return array.map(number => number % 2 ? odds.shift() : number)
 }
 
 console.log(sortArray([5, 8, 6, 3, 4]))
+
+// Challenge Problem 6: Square Every Digit
+
+function squareDigits(num){
+  let stringNum = num.toString()
+  let array = []
+  // console.log('this is stringNum', stringNum)
+
+  for (let i = 0; i < stringNum.length; i++){
+    // console.log('this is stringNum[i]', stringNum[i])
+    let integer = parseInt(stringNum[i])
+    array.push(integer)
+    // console.log('this is array', array)
+  }
+  
+  let exponents = array.map((number) => Math.pow(number, 2))
+  // console.log('this is exponents', exponents)
+
+  let joinedNum = exponents.join('')
+  return parseInt(joinedNum)
+}
+
+console.log(squareDigits(12345))
