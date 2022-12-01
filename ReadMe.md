@@ -44,3 +44,11 @@ Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 
 <h4>Challenge Problem 4: Return Vowel-Count</h4>
 <h5>Return the number (count) of vowels in the given string.We will consider a, e, i, o, u as vowels for this Kata (but not y).The input string will only consist of lower case letters and/or spaces.</h5>
+
+<h4>Challenge Problem 5: Sort the Odd</h4>
+<h5>You will be given an array of numbers. You have to sort the odd numbers in ascending order while leaving the even numbers at their original positions.</h5>
+<br>
+<br>
+[7, 1]  =>  [1, 7]
+[5, 8, 6, 3, 4]  =>  [3, 8, 6, 5, 4]
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  =>  [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]

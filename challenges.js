@@ -102,3 +102,13 @@ console.log(getCount('apple'))
 console.log(getCount('banana'))
 console.log(getCount('intentional'))
 
+// Challenge Problem 5: Sort the Odd
+
+function sortArray(array) {
+  let odds = array.filter(num => num % 2 !==0).sort((a, b) => a - b)
+  console.log('this is odds', odds)
+
+  return array.map(number => number % 2 ? odds.shift() : number)
+}
+
+console.log(sortArray([5, 8, 6, 3, 4]))
