@@ -135,3 +135,17 @@ function squareDigits(num){
 }
 
 console.log(squareDigits(12345))
+
+// Challenge Problem 7: FIZZBUZZ!
+
+for (let i = 0; i <= 100; i++){
+  if (i % 3 === 0) {
+    console.log("FIZZ")
+  }
+  else if (i % 5 === 0) {
+    console.log("BUZZ")
+  }
+  else {
+    console.log(i)
+  }
+}

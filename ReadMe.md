@@ -59,3 +59,8 @@ Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 <br>
 Note: The function accepts an integer and returns an integer
 
+<h4>Challenge Problem 7: FIZZBUZZ</h4>
+<h5>Write a program (in any programming language) that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz." For numbers which are multiples of both three and five print "FizzBuzz."</h5>
+<br>
+<br>
+Note: This one came from a job application I just submitted!
