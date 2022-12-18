@@ -63,4 +63,8 @@ Note: The function accepts an integer and returns an integer
 <h5>Write a program (in any programming language) that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz." For numbers which are multiples of both three and five print "FizzBuzz."</h5>
 <br>
 <br>
-Note: This one came from a job application I just submitted!
+
+<h4>Challenge Problem 7: Highest Scoring Word</h4>
+<h5>Given a string of words, you need to find the highest scoring word. Each letter of a word scores points according to its position in the alphabet: a = 1, b = 2, c = 3 etc. You need to return the highest scoring word as a string. If two words score the same, return the word that appears earliest in the original string. All letters will be lowercase and all inputs will be valid.</h5>
+<br>
+<br>
